@@ -19,8 +19,8 @@ console.log("==========Task 2==========");
 
 let someNum = 567391;
 let digits = someNum.toString().split('');
-let realDigits = digits.map(Number)
-console.log("Given number is", 567391)
+let realDigits = digits.map(Number);
+console.log("Given number is", 567391);
 console.log(realDigits);
 
 // Task 3
@@ -33,7 +33,7 @@ for (let i = 0; i <= numArr.length; i++) {
         numArr[i] = numArr[i] * -1;
     }
 }
-console.log(numArr)
+console.log(numArr);
 
 // Task 4
 console.log("==========Task 4==========");
@@ -46,7 +46,7 @@ for (let num of givenArr){
         newArr.push(num);
     }
 }
-console.log(newArr)
+console.log(newArr);
 
 // Task 5
 console.log("==========Task 5==========");
@@ -56,4 +56,4 @@ let newTestArr = testArr.filter(Number);
 // Tuka imam edno prasanje, zosto i TRUE mi go dava vo console.log?
 // I kako bi bilo reshenieto da ne go dava true
 
-console.log(newTestArr)
+console.log(newTestArr);
