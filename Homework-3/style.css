@@ -1,0 +1,103 @@
+:root {
+    --color-dark: #000000;
+    --color--white: #f5f5f5;
+    --color-primary: #113d54;
+    --color-accent: #ffe81f;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.header {
+    padding: 1rem;
+    background-color: var(--color-dark);
+    color: var(--color-accent);
+    font-size: 3rem;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#btn {
+    background-color: var(--color-accent);
+    border-radius: 8px;
+    border-style: none;
+    color: var(--color-dark);
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+#btn:hover,
+.nextBtn:hover,
+.previousBtn:hover {
+    background-color: var(--color-dark);
+    color: var(--color-accent);
+}
+
+.nextBtn,
+.previousBtn {
+    background-color: var(--color-accent);
+    border-radius: 8px;
+    border-style: none;
+    color: var(--color-dark);
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+    margin-top: 0rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+#app,
+#btnDiv {
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+
+h1 {
+    padding: 1rem;
+}
+
+table,
+th,
+td {
+    border: 2px solid;
+    border-collapse: collapse;
+    border-color: var(--color-dark);
+    padding: 1rem;
+    text-align: center;
+}
+
+thead {
+    background-color: var(--color-accent);
+    color: var(--color-dark);
+}
+
+tr {
+    background-color: var(--color-primary);
+    color: var(--color--white);
+}
+
+footer {
+    margin-top: auto;
+    background-color: var(--color-accent);
+    color: var(--color-dark);
+    font-size: 1.2rem;
+    padding: 1rem;
+}
